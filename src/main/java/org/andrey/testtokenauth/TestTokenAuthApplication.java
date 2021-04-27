@@ -1,0 +1,13 @@
+package org.andrey.testtokenauth;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class TestTokenAuthApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(TestTokenAuthApplication.class, args);
+	}
+
+}
